@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'api',
     'contact',
     'realtor',
+    'buildings',
     'rest_framework',
     # CORS
     'corsheaders',
