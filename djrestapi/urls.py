@@ -9,5 +9,4 @@ urlpatterns = [
     path('api/realtor/', include('realtor.urls')),
     path('api/home/', include('buildings.urls')),
 
-
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
